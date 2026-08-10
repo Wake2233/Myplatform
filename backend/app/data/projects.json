@@ -1,0 +1,52 @@
+[
+  {
+    "id": "media",
+    "title": { "en": "Media Monitoring & Social-Intelligence Platform", "ka": "მედია მონიტორინგისა და სოციალური ინტელექტის პლატფორმა" },
+    "kind": { "en": "Backend · Scraping · Analytics", "ka": "ბექენდ · სქრეიპინგი · ანალიტიკა" },
+    "stack": ["Python", "FastAPI", "Celery", "PostgreSQL", "Docker", "Azure"],
+    "bullets": [
+      { "en": "Architected a 5-service system (FastAPI, Flask, Celery, Celery Beat, Nginx) on Docker Compose, with per-service PostgreSQL connection-pool tuning that eliminated pool starvation under concurrent load.", "ka": "დავაპროექტე 5-სერვისიანი სისტემა (FastAPI, Flask, Celery, Celery Beat, Nginx) Docker Compose-ზე, სერვისებზე მორგებული PostgreSQL connection-pool-ით, რამაც აღმოფხვრა pool-ის გადატვირთვა კონკურენტული დატვირთვისას." },
+      { "en": "Engineered 40+ Selenium scrapers with a cookie-vs-Apify social-media backend switch feeding an OpenAI/Azure relevance & sentiment pipeline; automated alerting and push-to-main CI/CD to Azure.", "ka": "ავაწყვე 40+ Selenium სქრეიპერი cookie-vs-Apify სოც-მედია გადამრთველით, რომელიც კვებავს OpenAI/Azure რელევანტურობისა და სენტიმენტის pipeline-ს; ავტომატიზებული შეტყობინებები და push-to-main CI/CD Azure-ზე." }
+    ]
+  },
+  {
+    "id": "voice",
+    "title": { "en": "Real-Time Speaker-Recognition & Voice-Biometrics Platform", "ka": "რეალურ დროში მოსაუბრის ამოცნობა & ხმის ბიომეტრია" },
+    "kind": { "en": "Streaming AI", "ka": "სტრიმინგ AI" },
+    "stack": ["Python", "NVIDIA NeMo", "gRPC", "Qdrant", "FastAPI"],
+    "bullets": [
+      { "en": "Designed a bidirectional gRPC streaming service for real-time speaker recognition, encoding live audio into NeMo TitaNet 192-dim voice embeddings matched via Qdrant vector similarity search.", "ka": "დავაპროექტე bidirectional gRPC streaming სერვისი რეალურ დროში მოსაუბრის ამოსაცნობად, live აუდიოს NeMo TitaNet 192-განზომილებიან embedding-ებად და Qdrant vector similarity search-ით შედარებით." },
+      { "en": "Integrated a full speech stack — VAD, diarization, STT (with a faster-whisper fallback) and an LLM analysis step — over FastAPI/WebSockets, containerized for GPU/CUDA.", "ka": "დავაინტეგრირე სრული speech stack — VAD, დიარიზაცია, STT (faster-whisper fallback-ით) და LLM ანალიზი — FastAPI/WebSockets-ზე, კონტეინერიზებული GPU/CUDA-სთვის." }
+    ]
+  },
+  {
+    "id": "broadcast",
+    "title": { "en": "Real-Time Broadcast Speech-to-Text & Analytics Pipeline", "ka": "რეალურ დროში მაუწყებლობის Speech-to-Text პაიპლაინი" },
+    "kind": { "en": "Media Processing", "ka": "მედია დამუშავება" },
+    "stack": ["Python", "gRPC", "Celery", "asyncpg", "Next.js"],
+    "bullets": [
+      { "en": "Engineered a real-time pipeline capturing live broadcast streams into speech-to-text and speaker diarization, exposed over gRPC on async SQLAlchemy / asyncpg.", "ka": "ავაწყვე რეალურ დროში pipeline, რომელიც იჭერს live მაუწყებლობის ნაკადებს, გარდაქმნის ტექსტად და ახდენს დიარიზაციას, gRPC-ით, async SQLAlchemy / asyncpg-ზე." },
+      { "en": "Scaled throughput with Celery + Redis across three dedicated queues; shipped a Next.js / React dashboard with PDF exports.", "ka": "გავზარდე წარმადობა Celery + Redis-ით სამ გამოყოფილ queue-ზე; მივაწოდე Next.js / React dashboard PDF ექსპორტით." }
+    ]
+  },
+  {
+    "id": "agentic",
+    "title": { "en": "Agentic AI Assistant", "ka": "აგენტური AI ასისტენტი" },
+    "kind": { "en": "Multi-Agent AI + Mobile", "ka": "მრავალ-აგენტიანი AI + მობაილი" },
+    "stack": ["Python", "LangGraph", "Qdrant", "FastAPI", "React Native"],
+    "bullets": [
+      { "en": "Built a LangGraph multi-agent orchestrator (intent, clarification, preference, planning, memory agents) with Qdrant retrieval and LangSmith tracing, on a FastAPI backend with JWT + OAuth.", "ka": "ავაგე LangGraph მრავალ-აგენტიანი ორკესტრატორი (intent, clarification, preference, planning, memory აგენტები) Qdrant retrieval-ითა და LangSmith tracing-ით, FastAPI ბექენდზე JWT + OAuth-ით." },
+      { "en": "Developed the cross-platform React Native (Expo) client — redux-persist state, i18next localization, and native OAuth login.", "ka": "დავწერე cross-platform React Native (Expo) კლიენტი — redux-persist მდგომარეობა, i18next ლოკალიზაცია და ნეიტიური OAuth login." }
+    ]
+  },
+  {
+    "id": "traffic",
+    "title": { "en": "Smart-City Traffic Data Platform", "ka": "ჭკვიანი ქალაქის ტრანსპორტის მონაცემთა პლატფორმა" },
+    "kind": { "en": "Serverless Ingestion", "ka": "Serverless ინჯესთი" },
+    "stack": ["TypeScript", "AWS Lambda", "Serverless", "Sequelize"],
+    "bullets": [
+      { "en": "Built the AWS Lambda (Serverless, TypeScript) real-time sync that authenticates to a municipal traffic-camera API and filters detections against a whitelist before persistence — the platform's data-quality gate.", "ka": "ავაგე AWS Lambda (Serverless, TypeScript) real-time sync, რომელიც ხდება ავთენტიფიცირებული მუნიციპალურ traffic-camera API-სთან და ფილტრავს დეტექციებს whitelist-ის მიხედვით შენახვამდე — პლატფორმის data-quality კარიბჭე." },
+      { "en": "Optimized writes with Sequelize bulk-upserts (ignore-duplicates) and async logging of unrecognized sources, feeding a deck.gl / Mapbox geospatial dashboard.", "ka": "დავაოპტიმიზირე ჩაწერები Sequelize bulk-upsert-ებით (ignore-duplicates) და უცნობი წყაროების async ლოგირებით, რაც კვებავს deck.gl / Mapbox გეოსივრცულ dashboard-ს." }
+    ]
+  }
+]

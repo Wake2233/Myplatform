@@ -1,0 +1,44 @@
+{
+  "profile": {
+    "name": "Vako Mardaleishvili",
+    "role": { "en": "Backend & AI Engineer", "ka": "ბექენდ და AI ინჟინერი" },
+    "tagline": {
+      "en": "I build production-grade, event-driven Python systems — real-time streaming, distributed task orchestration, and applied LLM/ML.",
+      "ka": "ვქმნი production-დონის, event-driven Python სისტემებს — real-time streaming, განაწილებული ამოცანების ორკესტრირება და გამოყენებითი LLM/ML."
+    },
+    "summary": {
+      "en": "Backend & AI engineer who ships end-to-end: async FastAPI microservices containerized on Azure/AWS, fronted by typed React / React Native clients. Delivered five production systems across media intelligence, real-time speech, agentic AI, and geospatial data.",
+      "ka": "ბექენდ და AI ინჟინერი, რომელიც აშენებს end-to-end სისტემებს: async FastAPI მიკროსერვისები, კონტეინერიზებული Azure/AWS-ზე, typed React / React Native კლიენტებით. მიწოდებული მაქვს ხუთი production სისტემა — მედია ინტელექტი, real-time მეტყველება, აგენტური AI და გეოსივრცული მონაცემები."
+    },
+    "location": { "en": "Kutaisi, Georgia", "ka": "ქუთაისი, საქართველო" },
+    "email": "vvako177@gmail.com",
+    "phone": "+995 599 18 20 91",
+    "github": "https://github.com/Wake2233",
+    "linkedin": "https://www.linkedin.com/in/vako-mardaleishvili-1a637b274/"
+  },
+  "experience": {
+    "company": "Nebula AI Hub",
+    "role": { "en": "Software Engineer (Backend & AI)", "ka": "პროგრამული უზრუნველყოფის ინჟინერი (ბექენდ & AI)" },
+    "period": { "en": "Jul 2025 – Present", "ka": "2025 ივლისი – დღემდე" },
+    "note": {
+      "en": "Full ownership of production systems — architecture, data pipelines, containerized deployment, and CI/CD.",
+      "ka": "პროდაქშენ სისტემების სრული მფლობელობა — არქიტექტურა, data pipeline-ები, კონტეინერიზებული დეფლოი და CI/CD."
+    }
+  },
+  "skills": [
+    { "title": { "en": "Languages", "ka": "ენები" }, "items": ["Python", "TypeScript", "JavaScript", "SQL", "Bash"] },
+    { "title": { "en": "Frameworks & Libraries", "ka": "ფრეიმვორკები & ბიბლიოთეკები" }, "items": ["FastAPI", "Flask", "Celery", "APScheduler", "gRPC", "SQLAlchemy (async)", "LangGraph / LangChain", "NeMo (TitaNet)", "faster-whisper", "pyannote", "Selenium", "React", "Next.js", "React Native (Expo)", "Redux Toolkit"] },
+    { "title": { "en": "Databases & Storage", "ka": "მონაცემთა ბაზები & საცავი" }, "items": ["PostgreSQL", "Qdrant (vector search)", "Redis", "Alembic", "Prisma", "Sequelize"] },
+    { "title": { "en": "Tools, DevOps & Cloud", "ka": "ხელსაწყოები, DevOps & Cloud" }, "items": ["Docker & Docker Compose", "Nginx", "GitHub Actions", "Bitbucket Pipelines", "AWS Lambda / Serverless", "Azure Container Apps", "Azure Speech", "Apify"] },
+    { "title": { "en": "Architecture & Methods", "ka": "არქიტექტურა & მიდგომები" }, "items": ["Microservices", "Event-Driven & Async", "Multi-Agent AI Orchestration", "Real-Time Streaming (gRPC / WebSockets)", "ETL & Web-Scraping", "REST API Design", "CI/CD", "Vector Search"] }
+  ],
+  "education": [
+    { "org": "Black Sea International University", "program": { "en": "Computer Science (2 yrs, incomplete)", "ka": "კომპიუტერული მეცნიერება (2 წელი, დაუმთავრებელი)" }, "period": "2019 – 2021", "note": null },
+    { "org": "Kutaisi Multifunctional Center", "program": { "en": "Artificial Intelligence (Applied AI)", "ka": "ხელოვნური ინტელექტი (გამოყენებითი AI)" }, "period": "2024 – 2025", "note": { "en": "AI chatbots, computer vision, predictive analytics, recommender systems, generative AI, and AI web apps.", "ka": "AI ჩატბოტები, computer vision, პროგნოზული ანალიტიკა, სარეკომენდაციო სისტემები, გენერაციული AI და AI ვებ-აპლიკაციები." } },
+    { "org": "Kutaisi Multifunctional Center", "program": { "en": "Advanced Python", "ka": "Advanced Python" }, "period": "2024 – 2025", "note": null }
+  ],
+  "languages": [
+    { "name": { "en": "Georgian", "ka": "ქართული" }, "level": { "en": "Native", "ka": "მშობლიური" } },
+    { "name": { "en": "English", "ka": "ინგლისური" }, "level": { "en": "B2 (Upper-Intermediate)", "ka": "B2 (საშუალოზე მაღალი)" } }
+  ]
+}

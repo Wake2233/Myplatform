@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "My Platform",
+    "slug": "my-platform",
+    "scheme": "myplatform",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#080c0a",
+    "assetBundlePatterns": ["**/*"],
+    "ios": { "supportsTablet": true },
+    "android": { "adaptiveIcon": { "backgroundColor": "#080c0a" } }
+  }
+}
