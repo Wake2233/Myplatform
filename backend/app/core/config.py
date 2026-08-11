@@ -1,6 +1,8 @@
 """Application settings, driven by environment variables (.env)."""
+from typing import Annotated
+
 from pydantic import field_validator
-from pydantic_settings import BaseSettings, SettingsConfigDict
+from pydantic_settings import BaseSettings, NoDecode, SettingsConfigDict
 
 
 class Settings(BaseSettings):
@@ -8,7 +10,10 @@ class Settings(BaseSettings):
 
     app_name: str = "My Platform API"
     # Origins allowed to call the API from a browser (web dev server, Expo web, etc.)
-    cors_origins: list[str] = [
+    # NoDecode: the env var is a plain comma-separated string, not JSON — skip
+    # pydantic-settings' default JSON decoding for complex types (list[str]),
+    # which otherwise raises SettingsError before our validator ever runs.
+    cors_origins: Annotated[list[str], NoDecode] = [
         "http://localhost:5173",
         "http://localhost:4173",
         "http://localhost:19006",
@@ -19,7 +24,7 @@ class Settings(BaseSettings):
     @field_validator("cors_origins", mode="before")
     @classmethod
     def _split_comma_separated(cls, value):
-        if isinstance(value, str) and not value.strip().startswith("["):
+        if isinstance(value, str):
             return [origin.strip() for origin in value.split(",") if origin.strip()]
         return value
 
