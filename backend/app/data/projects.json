@@ -5,7 +5,7 @@
     "kind": { "en": "Backend · Scraping · Analytics", "ka": "ბექენდ · სქრეიპინგი · ანალიტიკა" },
     "stack": ["Python", "FastAPI", "Celery", "PostgreSQL", "OpenAI / Azure", "Docker"],
     "bullets": [
-      { "en": "Architected a 5-service system (FastAPI, Flask, Celery, Celery Beat, Nginx) on Docker Compose, with per-service PostgreSQL connection-pool tuning that eliminated pool starvation under concurrent load.", "ka": "დავაპროექტე 5-სერვისიანი სისტემა (FastAPI, Flask, Celery, Celery Beat, Nginx) Docker Compose-ზე, სერვისებზე მორგებული PostgreSQL connection-pool-ით, რამაც კონკურენტული დატვირთვისას connection-pool-ის ამოწურვა აღმოფხვრა." },
+      { "en": "Worked on a 5-service system (FastAPI, Flask, Celery, Celery Beat, Nginx) on Docker Compose, including the per-service PostgreSQL connection-pool tuning that eliminated pool starvation under concurrent load.", "ka": "ვიმუშავე 5-სერვისიან სისტემაზე (FastAPI, Flask, Celery, Celery Beat, Nginx) Docker Compose-ზე; მათ შორის სერვისებზე მორგებულ PostgreSQL connection-pool-ზე, რამაც კონკურენტული დატვირთვისას connection-pool-ის ამოწურვა აღმოფხვრა." },
       { "en": "Engineered 40+ Selenium scrapers with a cookie-vs-Apify social-media backend switch, feeding an LLM relevance & sentiment pipeline on OpenAI/Azure; automated alerting and push-to-main CI/CD to Azure.", "ka": "დავწერე 40+ Selenium სქრეიპერი cookie-vs-Apify სოც-მედია გადამრთველით, რომელიც OpenAI/Azure-ის LLM რელევანტურობისა და სენტიმენტის pipeline-ს აწვდის მონაცემებს; ავტომატიზებული შეტყობინებები და push-to-main CI/CD Azure-ზე." }
     ]
   },
@@ -15,7 +15,7 @@
     "kind": { "en": "Streaming AI", "ka": "სტრიმინგ AI" },
     "stack": ["Python", "NVIDIA NeMo", "Ollama / Mistral", "gRPC", "Qdrant", "FastAPI"],
     "bullets": [
-      { "en": "Designed a bidirectional gRPC streaming service for real-time speaker recognition: live audio is encoded into NeMo TitaNet 192-dim voice embeddings and matched through Qdrant vector similarity search.", "ka": "დავაპროექტე bidirectional gRPC streaming სერვისი რეალურ დროში მოსაუბრის ამოსაცნობად: live აუდიო NeMo TitaNet-ის 192-განზომილებიან embedding-ებად გარდაიქმნება და Qdrant-ის vector similarity search-ით ედარება ბაზას." },
+      { "en": "Worked on a bidirectional gRPC streaming service for real-time speaker recognition: live audio is encoded into NeMo TitaNet 192-dim voice embeddings and matched through Qdrant vector similarity search.", "ka": "ვიმუშავე bidirectional gRPC streaming სერვისზე რეალურ დროში მოსაუბრის ამოსაცნობად: live აუდიო NeMo TitaNet-ის 192-განზომილებიან embedding-ებად გარდაიქმნება და Qdrant-ის vector similarity search-ით ედარება ბაზას." },
       { "en": "Integrated a full speech stack — VAD, diarization, STT (with a faster-whisper fallback) and an LLM analysis step running Mistral-NeMo on Ollama — over FastAPI/WebSockets, containerized for GPU/CUDA.", "ka": "დავაინტეგრირე სრული speech stack — VAD, დიარიზაცია, STT (faster-whisper fallback-ით) და LLM ანალიზი Mistral-NeMo-თი Ollama-ზე — FastAPI/WebSockets-ზე, კონტეინერიზებული GPU/CUDA-სთვის." }
     ]
   },

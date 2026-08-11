@@ -57,16 +57,18 @@ export default function About({ data }: { data: ProfileBundle }) {
           </div>
         </div>
 
-        {/* Specialization row: AI is the headline, frontend availability right next to it. */}
-        <div className="about-grid" style={{ marginTop: 30 }}>
-          <div className="info-card card reveal">
-            <h3>{t("about.aiTitle")}</h3>
-            <p className="v" style={{ marginTop: 10, lineHeight: 1.75 }}>{t("about.aiBody")}</p>
-          </div>
-          <div className="info-card card reveal" style={{ transitionDelay: "80ms" }}>
-            <h3>{t("about.feTitle")}</h3>
-            <p className="v" style={{ marginTop: 10, lineHeight: 1.75 }}>{t("about.feBody")}</p>
-          </div>
+        {/* Specialization row: AI leads, then backend and frontend as equal disciplines. */}
+        <div className="focus-grid">
+          {([
+            ["about.aiTitle", "about.aiBody"],
+            ["about.beTitle", "about.beBody"],
+            ["about.feTitle", "about.feBody"],
+          ] as const).map(([title, body], i) => (
+            <div className="info-card card reveal" key={title} style={{ transitionDelay: `${i * 80}ms` }}>
+              <h3>{t(title)}</h3>
+              <p className="v" style={{ marginTop: 10, lineHeight: 1.75 }}>{t(body)}</p>
+            </div>
+          ))}
         </div>
       </div>
     </section>

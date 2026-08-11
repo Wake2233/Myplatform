@@ -32,12 +32,12 @@ export const localProfile: ProfileBundle = {
     name: "Vako Mardaleishvili",
     role: { en: "AI Engineer · Backend & Full-Stack", ka: "AI ინჟინერი · ბექენდი და ფულ-სტეკი" },
     tagline: {
-      en: "I specialize in AI engineering — multi-agent LLM systems, RAG and real-time speech — built on production-grade, event-driven Python backends, with the React / React Native frontends to match.",
-      ka: "სპეციალიზაცია მაქვს AI ინჟინერიაში — მრავალაგენტიანი LLM სისტემები, RAG და real-time speech — პროდაქშენ დონის, event-driven Python ბექენდებზე და შესაბამისი React / React Native ფრონტენდით.",
+      en: "I specialize in AI engineering — multi-agent LLM systems, RAG, and integrating any model, local or API-based, into whatever system needs it — on production-grade, event-driven Python backends, with the React / React Native frontends to match.",
+      ka: "სპეციალიზირებული ვარ AI ინჟინერიაში — მრავალაგენტიანი LLM სისტემები, RAG და ნებისმიერი მოდელის, ლოკალურის თუ API-ზე დაფუძნებულის, ინტეგრაცია ნებისმიერ სისტემაში — პროდაქშენ დონის, event-driven Python ბექენდებზე და შესაბამისი React / React Native ფრონტენდით.",
     },
     summary: {
-      en: "AI engineer first: I design multi-agent LLM systems with LangGraph and LangChain, RAG over Qdrant, and real-time speech pipelines on NVIDIA NeMo, Hugging Face, Mistral and Ollama. Then I ship them end to end — async FastAPI microservices containerized on Azure/AWS, fronted by typed React and React Native clients I build myself. Five production systems delivered across media analytics, real-time speech, agentic AI, and geospatial data.",
-      ka: "პირველ რიგში AI ინჟინერი ვარ: ვქმნი მრავალაგენტიან LLM სისტემებს LangGraph-ითა და LangChain-ით, RAG-ს Qdrant-ზე და real-time speech პაიპლაინებს NVIDIA NeMo-ზე, Hugging Face-ზე, Mistral-სა და Ollama-ზე. სისტემას კი თავიდან ბოლომდე თვითონ ვაკეთებ — async FastAPI მიკროსერვისები Azure/AWS-ის კონტეინერებში და typed React / React Native კლიენტები, რომლებსაც თვითონვე ვწერ. ხუთი პროდაქშენ სისტემა: მედია ანალიტიკა, real-time მეტყველება, აგენტური AI და გეოსივრცული მონაცემები.",
+      en: "AI engineer first: I work on multi-agent LLM systems with LangGraph and LangChain, RAG over Qdrant, and whatever model the job needs — local or API-based — across NVIDIA NeMo, Hugging Face, Mistral, Ollama and OpenAI / Azure. Then I ship them end to end — async FastAPI microservices containerized on Azure/AWS, fronted by typed React and React Native clients I build myself. Five production systems delivered across media analytics, real-time speech, agentic AI, and geospatial data.",
+      ka: "პირველ რიგში AI ინჟინერი ვარ: ვმუშაობ მრავალაგენტიან LLM სისტემებზე LangGraph-ითა და LangChain-ით, RAG-ზე Qdrant-ით და ნებისმიერ მოდელზე, რომელიც საჭიროა — ლოკალურზე თუ API-ზე დაფუძნებულზე: NVIDIA NeMo, Hugging Face, Mistral, Ollama, OpenAI / Azure. სისტემას კი თავიდან ბოლომდე თვითონ ვაკეთებ — async FastAPI მიკროსერვისები Azure/AWS-ის კონტეინერებში და typed React / React Native კლიენტები, რომლებსაც თვითონვე ვწერ. ხუთი პროდაქშენ სისტემა: მედია ანალიტიკა, real-time მეტყველება, აგენტური AI და გეოსივრცული მონაცემები.",
     },
     location: { en: "Kutaisi, Georgia", ka: "ქუთაისი, საქართველო" },
     email: "vvako177@gmail.com",
@@ -120,7 +120,7 @@ export const localProjects: Project[] = [
     kind: { en: "Backend · Scraping · Analytics", ka: "ბექენდ · სქრეიპინგი · ანალიტიკა" },
     stack: ["Python", "FastAPI", "Celery", "PostgreSQL", "OpenAI / Azure", "Docker"],
     bullets: [
-      { en: "Architected a 5-service system (FastAPI, Flask, Celery, Celery Beat, Nginx) on Docker Compose, with per-service PostgreSQL connection-pool tuning that eliminated pool starvation under concurrent load.", ka: "დავაპროექტე 5-სერვისიანი სისტემა (FastAPI, Flask, Celery, Celery Beat, Nginx) Docker Compose-ზე, სერვისებზე მორგებული PostgreSQL connection-pool-ით, რამაც კონკურენტული დატვირთვისას connection-pool-ის ამოწურვა აღმოფხვრა." },
+      { en: "Worked on a 5-service system (FastAPI, Flask, Celery, Celery Beat, Nginx) on Docker Compose, including the per-service PostgreSQL connection-pool tuning that eliminated pool starvation under concurrent load.", ka: "ვიმუშავე 5-სერვისიან სისტემაზე (FastAPI, Flask, Celery, Celery Beat, Nginx) Docker Compose-ზე; მათ შორის სერვისებზე მორგებულ PostgreSQL connection-pool-ზე, რამაც კონკურენტული დატვირთვისას connection-pool-ის ამოწურვა აღმოფხვრა." },
       { en: "Engineered 40+ Selenium scrapers with a cookie-vs-Apify social-media backend switch, feeding an LLM relevance & sentiment pipeline on OpenAI/Azure; automated alerting and push-to-main CI/CD to Azure.", ka: "დავწერე 40+ Selenium სქრეიპერი cookie-vs-Apify სოც-მედია გადამრთველით, რომელიც OpenAI/Azure-ის LLM რელევანტურობისა და სენტიმენტის pipeline-ს აწვდის მონაცემებს; ავტომატიზებული შეტყობინებები და push-to-main CI/CD Azure-ზე." },
     ],
   },
@@ -130,7 +130,7 @@ export const localProjects: Project[] = [
     kind: { en: "Streaming AI", ka: "სტრიმინგ AI" },
     stack: ["Python", "NVIDIA NeMo", "Ollama / Mistral", "gRPC", "Qdrant", "FastAPI"],
     bullets: [
-      { en: "Designed a bidirectional gRPC streaming service for real-time speaker recognition: live audio is encoded into NeMo TitaNet 192-dim voice embeddings and matched through Qdrant vector similarity search.", ka: "დავაპროექტე bidirectional gRPC streaming სერვისი რეალურ დროში მოსაუბრის ამოსაცნობად: live აუდიო NeMo TitaNet-ის 192-განზომილებიან embedding-ებად გარდაიქმნება და Qdrant-ის vector similarity search-ით ედარება ბაზას." },
+      { en: "Worked on a bidirectional gRPC streaming service for real-time speaker recognition: live audio is encoded into NeMo TitaNet 192-dim voice embeddings and matched through Qdrant vector similarity search.", ka: "ვიმუშავე bidirectional gRPC streaming სერვისზე რეალურ დროში მოსაუბრის ამოსაცნობად: live აუდიო NeMo TitaNet-ის 192-განზომილებიან embedding-ებად გარდაიქმნება და Qdrant-ის vector similarity search-ით ედარება ბაზას." },
       { en: "Integrated a full speech stack — VAD, diarization, STT (with a faster-whisper fallback) and an LLM analysis step running Mistral-NeMo on Ollama — over FastAPI/WebSockets, containerized for GPU/CUDA.", ka: "დავაინტეგრირე სრული speech stack — VAD, დიარიზაცია, STT (faster-whisper fallback-ით) და LLM ანალიზი Mistral-NeMo-თი Ollama-ზე — FastAPI/WebSockets-ზე, კონტეინერიზებული GPU/CUDA-სთვის." },
     ],
   },
