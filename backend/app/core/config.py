@@ -1,4 +1,5 @@
 """Application settings, driven by environment variables (.env)."""
+from pydantic import field_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
@@ -14,6 +15,13 @@ class Settings(BaseSettings):
     ]
     # Leaderboard keeps only the top N scores.
     max_scores: int = 50
+
+    @field_validator("cors_origins", mode="before")
+    @classmethod
+    def _split_comma_separated(cls, value):
+        if isinstance(value, str) and not value.strip().startswith("["):
+            return [origin.strip() for origin in value.split(",") if origin.strip()]
+        return value
 
 
 settings = Settings()
