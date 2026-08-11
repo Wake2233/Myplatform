@@ -53,8 +53,8 @@ export const localProfile: ProfileBundle = {
     },
     period: { en: "Jul 2025 – Present", ka: "2025 ივლისი – დღემდე" },
     note: {
-      en: "Full ownership of production systems — AI/LLM features, architecture, data pipelines, containerized deployment, and CI/CD.",
-      ka: "სრული პასუხისმგებლობა პროდაქშენ სისტემებზე — AI/LLM ფიჩერები, არქიტექტურა, data pipeline-ები, კონტეინერიზებული დეპლოი და CI/CD.",
+      en: "Hands-on across production systems — AI/LLM features, data pipelines, containerized deployment, and CI/CD.",
+      ka: "ვმუშაობ პროდაქშენ სისტემების ყველა ნაწილზე — AI/LLM ფიჩერები, data pipeline-ები, კონტეინერიზებული დეპლოი და CI/CD.",
     },
   },
   skills: [
