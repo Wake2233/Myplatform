@@ -639,3 +639,14 @@ a {
   gap: 16px;
   flex-wrap: wrap;
 }
+/* Second footer line — the AI toolchain. Continues the row above, so no divider. */
+.foot-stack {
+  border-top: none;
+  padding-top: 0;
+  justify-content: center;
+  text-align: center;
+  color: var(--acc);
+  opacity: 0.75;
+  font-size: 0.74rem;
+  line-height: 1.9;
+}

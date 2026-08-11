@@ -42,11 +42,11 @@ export default function Hero({ profile }: { profile: Profile }) {
         <div className="stats reveal">
           <div className="stat">
             <div className="n">5</div>
-            <div className="l">{pick({ en: "production systems", ka: "production სისტემა" })}</div>
+            <div className="l">{pick({ en: "production systems", ka: "პროდაქშენ სისტემა" })}</div>
           </div>
           <div className="stat">
             <div className="n">4</div>
-            <div className="l">{pick({ en: "engineering domains", ka: "საინჟინრო სფერო" })}</div>
+            <div className="l">{pick({ en: "AI / LLM systems", ka: "AI / LLM სისტემა" })}</div>
           </div>
           <div className="stat">
             <div className="n">10+</div>

@@ -56,6 +56,18 @@ export default function About({ data }: { data: ProfileBundle }) {
             </div>
           </div>
         </div>
+
+        {/* Specialization row: AI is the headline, frontend availability right next to it. */}
+        <div className="about-grid" style={{ marginTop: 30 }}>
+          <div className="info-card card reveal">
+            <h3>{t("about.aiTitle")}</h3>
+            <p className="v" style={{ marginTop: 10, lineHeight: 1.75 }}>{t("about.aiBody")}</p>
+          </div>
+          <div className="info-card card reveal" style={{ transitionDelay: "80ms" }}>
+            <h3>{t("about.feTitle")}</h3>
+            <p className="v" style={{ marginTop: 10, lineHeight: 1.75 }}>{t("about.feBody")}</p>
+          </div>
+        </div>
       </div>
     </section>
   );

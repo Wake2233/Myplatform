@@ -1,14 +1,14 @@
 {
   "profile": {
     "name": "Vako Mardaleishvili",
-    "role": { "en": "Backend & AI Engineer", "ka": "ბექენდ და AI ინჟინერი" },
+    "role": { "en": "AI Engineer · Backend & Full-Stack", "ka": "AI ინჟინერი · ბექენდი და ფულ-სტეკი" },
     "tagline": {
-      "en": "I build production-grade, event-driven Python systems — real-time streaming, distributed task orchestration, and applied LLM/ML.",
-      "ka": "ვქმნი production-დონის, event-driven Python სისტემებს — real-time streaming, განაწილებული ამოცანების ორკესტრირება და გამოყენებითი LLM/ML."
+      "en": "I specialize in AI engineering — multi-agent LLM systems, RAG and real-time speech — built on production-grade, event-driven Python backends, with the React / React Native frontends to match.",
+      "ka": "სპეციალიზაცია მაქვს AI ინჟინერიაში — მრავალაგენტიანი LLM სისტემები, RAG და real-time speech — პროდაქშენ დონის, event-driven Python ბექენდებზე და შესაბამისი React / React Native ფრონტენდით."
     },
     "summary": {
-      "en": "Backend & AI engineer who ships end-to-end: async FastAPI microservices containerized on Azure/AWS, fronted by typed React / React Native clients. Delivered five production systems across media intelligence, real-time speech, agentic AI, and geospatial data.",
-      "ka": "ბექენდ და AI ინჟინერი, რომელიც აშენებს end-to-end სისტემებს: async FastAPI მიკროსერვისები, კონტეინერიზებული Azure/AWS-ზე, typed React / React Native კლიენტებით. მიწოდებული მაქვს ხუთი production სისტემა — მედია ინტელექტი, real-time მეტყველება, აგენტური AI და გეოსივრცული მონაცემები."
+      "en": "AI engineer first: I design multi-agent LLM systems with LangGraph and LangChain, RAG over Qdrant, and real-time speech pipelines on NVIDIA NeMo, Hugging Face, Mistral and Ollama. Then I ship them end to end — async FastAPI microservices containerized on Azure/AWS, fronted by typed React and React Native clients I build myself. Five production systems delivered across media analytics, real-time speech, agentic AI, and geospatial data.",
+      "ka": "პირველ რიგში AI ინჟინერი ვარ: ვქმნი მრავალაგენტიან LLM სისტემებს LangGraph-ითა და LangChain-ით, RAG-ს Qdrant-ზე და real-time speech პაიპლაინებს NVIDIA NeMo-ზე, Hugging Face-ზე, Mistral-სა და Ollama-ზე. სისტემას კი თავიდან ბოლომდე თვითონ ვაკეთებ — async FastAPI მიკროსერვისები Azure/AWS-ის კონტეინერებში და typed React / React Native კლიენტები, რომლებსაც თვითონვე ვწერ. ხუთი პროდაქშენ სისტემა: მედია ანალიტიკა, real-time მეტყველება, აგენტური AI და გეოსივრცული მონაცემები."
     },
     "location": { "en": "Kutaisi, Georgia", "ka": "ქუთაისი, საქართველო" },
     "email": "vvako177@gmail.com",
@@ -18,19 +18,21 @@
   },
   "experience": {
     "company": "Nebula AI Hub",
-    "role": { "en": "Software Engineer (Backend & AI)", "ka": "პროგრამული უზრუნველყოფის ინჟინერი (ბექენდ & AI)" },
+    "role": { "en": "Software Engineer (Backend & AI)", "ka": "პროგრამული უზრუნველყოფის ინჟინერი (ბექენდი და AI)" },
     "period": { "en": "Jul 2025 – Present", "ka": "2025 ივლისი – დღემდე" },
     "note": {
-      "en": "Full ownership of production systems — architecture, data pipelines, containerized deployment, and CI/CD.",
-      "ka": "პროდაქშენ სისტემების სრული მფლობელობა — არქიტექტურა, data pipeline-ები, კონტეინერიზებული დეფლოი და CI/CD."
+      "en": "Full ownership of production systems — AI/LLM features, architecture, data pipelines, containerized deployment, and CI/CD.",
+      "ka": "სრული პასუხისმგებლობა პროდაქშენ სისტემებზე — AI/LLM ფიჩერები, არქიტექტურა, data pipeline-ები, კონტეინერიზებული დეპლოი და CI/CD."
     }
   },
   "skills": [
+    { "title": { "en": "AI / LLM Engineering", "ka": "AI / LLM ინჟინერია" }, "items": ["LangGraph", "LangChain", "LangSmith", "Hugging Face", "Ollama", "Mistral", "NVIDIA NeMo (TitaNet / FastConformer)", "faster-whisper", "pyannote", "RAG & Vector Retrieval", "Multi-Agent Orchestration", "Prompt Engineering", "OpenAI / Azure OpenAI"] },
     { "title": { "en": "Languages", "ka": "ენები" }, "items": ["Python", "TypeScript", "JavaScript", "SQL", "Bash"] },
-    { "title": { "en": "Frameworks & Libraries", "ka": "ფრეიმვორკები & ბიბლიოთეკები" }, "items": ["FastAPI", "Flask", "Celery", "APScheduler", "gRPC", "SQLAlchemy (async)", "LangGraph / LangChain", "NeMo (TitaNet)", "faster-whisper", "pyannote", "Selenium", "React", "Next.js", "React Native (Expo)", "Redux Toolkit"] },
-    { "title": { "en": "Databases & Storage", "ka": "მონაცემთა ბაზები & საცავი" }, "items": ["PostgreSQL", "Qdrant (vector search)", "Redis", "Alembic", "Prisma", "Sequelize"] },
-    { "title": { "en": "Tools, DevOps & Cloud", "ka": "ხელსაწყოები, DevOps & Cloud" }, "items": ["Docker & Docker Compose", "Nginx", "GitHub Actions", "Bitbucket Pipelines", "AWS Lambda / Serverless", "Azure Container Apps", "Azure Speech", "Apify"] },
-    { "title": { "en": "Architecture & Methods", "ka": "არქიტექტურა & მიდგომები" }, "items": ["Microservices", "Event-Driven & Async", "Multi-Agent AI Orchestration", "Real-Time Streaming (gRPC / WebSockets)", "ETL & Web-Scraping", "REST API Design", "CI/CD", "Vector Search"] }
+    { "title": { "en": "Backend & Frameworks", "ka": "ბექენდი და ფრეიმვორკები" }, "items": ["FastAPI", "Flask", "Celery", "APScheduler", "gRPC", "SQLAlchemy (async)", "Selenium"] },
+    { "title": { "en": "Frontend & Mobile", "ka": "ფრონტენდი და მობაილი" }, "items": ["React", "TypeScript", "Next.js", "React Native (Expo)", "Redux Toolkit", "Vite", "i18n / Localization", "Responsive & Accessible UI"] },
+    { "title": { "en": "Databases & Storage", "ka": "მონაცემთა ბაზები და საცავი" }, "items": ["PostgreSQL", "Qdrant (vector search)", "Redis", "Alembic", "Prisma", "Sequelize"] },
+    { "title": { "en": "Tools, DevOps & Cloud", "ka": "ინსტრუმენტები, DevOps და Cloud" }, "items": ["Docker & Docker Compose", "Nginx", "GitHub Actions", "Bitbucket Pipelines", "AWS Lambda / Serverless", "Azure Container Apps", "Azure Speech", "Apify"] },
+    { "title": { "en": "Architecture & Methods", "ka": "არქიტექტურა და მიდგომები" }, "items": ["Microservices", "Event-Driven & Async", "Multi-Agent AI Orchestration", "RAG Pipelines", "Real-Time Streaming (gRPC / WebSockets)", "ETL & Web-Scraping", "REST API Design", "CI/CD"] }
   ],
   "education": [
     { "org": "Black Sea International University", "program": { "en": "Computer Science (2 yrs, incomplete)", "ka": "კომპიუტერული მეცნიერება (2 წელი, დაუმთავრებელი)" }, "period": "2019 – 2021", "note": null },

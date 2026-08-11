@@ -45,6 +45,9 @@ export default function Contact({ profile }: { profile: Profile }) {
           </span>
           <span>{t("footer.built")}</span>
         </div>
+        <div className="foot foot-stack">
+          <span>{t("footer.stack")}</span>
+        </div>
       </div>
     </section>
   );
