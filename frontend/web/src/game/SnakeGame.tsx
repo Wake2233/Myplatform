@@ -8,6 +8,13 @@ const CELL = 24;
 const W = COLS * CELL;
 const H = ROWS * CELL;
 
+/* Speed ramp — deliberately gentle. Each food shaves SPEED_DECAY_MS off the
+   step, so it takes ~47 foods to reach the floor rather than ramping up in the
+   first handful of bites. */
+const SPEED_START_MS = 150; // step between moves at the start
+const SPEED_DECAY_MS = 1.5; // ms shaved off the step per food eaten
+const SPEED_FLOOR_MS = 80; // fastest the snake is ever allowed to move
+
 type P = { x: number; y: number };
 type Status = "idle" | "running" | "paused" | "over";
 
@@ -163,7 +170,8 @@ export default function SnakeGame({ onGameOver }: { onGameOver?: (score: number)
         draw();
         return;
       }
-      const step = Math.max(70, 140 - (snakeRef.current.length - 1) * 4);
+      const foodsEaten = snakeRef.current.length - 1;
+      const step = Math.max(SPEED_FLOOR_MS, SPEED_START_MS - foodsEaten * SPEED_DECAY_MS);
       if (ts - lastRef.current >= step) {
         lastRef.current = ts;
         tick();

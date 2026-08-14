@@ -53,8 +53,8 @@ export const localProfile: ProfileBundle = {
     },
     period: { en: "Jul 2025 – Present", ka: "2025 ივლისი – დღემდე" },
     note: {
-      en: "Hands-on across production systems — AI/LLM features, data pipelines, containerized deployment, and CI/CD.",
-      ka: "ვმუშაობ პროდაქშენ სისტემების ყველა ნაწილზე — AI/LLM ფიჩერები, data pipeline-ები, კონტეინერიზებული დეპლოი და CI/CD.",
+      en: "AI/LLM engineering first, backend services alongside it — agent workflows, model integration, APIs and async data pipelines — plus frontend work whenever a project calls for it.",
+      ka: "ძირითადად AI/LLM ინჟინერიასა და ბექენდ სერვისებზე ვმუშაობ — აგენტების workflow-ები, მოდელების ინტეგრაცია, API-ები და async პაიპლაინები; ფრონტენდს კი მაშინ ვაკეთებ, როცა პროექტს სჭირდება.",
     },
   },
   skills: [
