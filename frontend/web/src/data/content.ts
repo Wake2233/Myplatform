@@ -33,11 +33,11 @@ export const localProfile: ProfileBundle = {
     role: { en: "AI Engineer · Backend & Full-Stack", ka: "AI ინჟინერი · ბექენდი და ფულ-სტეკი" },
     tagline: {
       en: "I specialize in AI engineering — multi-agent LLM systems, RAG, and integrating any model, local or API-based, into whatever system needs it — on production-grade, event-driven Python backends, with the React / React Native frontends to match.",
-      ka: "სპეციალიზირებული ვარ AI ინჟინერიაში — მრავალაგენტიანი LLM სისტემები, RAG და ნებისმიერი მოდელის, ლოკალურის თუ API-ზე დაფუძნებულის, ინტეგრაცია ნებისმიერ სისტემაში — პროდაქშენ დონის, event-driven Python ბექენდებზე და შესაბამისი React / React Native ფრონტენდით.",
+      ka: "სპეციალიზირებული ვარ AI ინჟინერიაში — მრავალაგენტიანი LLM სისტემები, RAG და ნებისმიერი მოდელის, ლოკალურის თუ API-ზე დაფუძნებულის, ინტეგრაცია ნებისმიერ სისტემაში — პროდაქშენ დონის, event-driven Python ბექენდზე და შესაბამისი React / React Native ფრონტენდით.",
     },
     summary: {
       en: "AI engineer first: I work on multi-agent LLM systems with LangGraph and LangChain, RAG over Qdrant, and whatever model the job needs — local or API-based — across NVIDIA NeMo, Hugging Face, Mistral, Ollama and OpenAI / Azure. Then I ship them end to end — async FastAPI microservices containerized on Azure/AWS, fronted by typed React and React Native clients I build myself. Five production systems delivered across media analytics, real-time speech, agentic AI, and geospatial data.",
-      ka: "პირველ რიგში AI ინჟინერი ვარ: ვმუშაობ მრავალაგენტიან LLM სისტემებზე LangGraph-ითა და LangChain-ით, RAG-ზე Qdrant-ით და ნებისმიერ მოდელზე, რომელიც საჭიროა — ლოკალურზე თუ API-ზე დაფუძნებულზე: NVIDIA NeMo, Hugging Face, Mistral, Ollama, OpenAI / Azure. სისტემას კი თავიდან ბოლომდე თვითონ ვაკეთებ — async FastAPI მიკროსერვისები Azure/AWS-ის კონტეინერებში და typed React / React Native კლიენტები, რომლებსაც თვითონვე ვწერ. ხუთი პროდაქშენ სისტემა: მედია ანალიტიკა, real-time მეტყველება, აგენტური AI და გეოსივრცული მონაცემები.",
+      ka: "პირველ რიგში AI ინჟინერი ვარ: ვმუშაობ მრავალაგენტიან LLM სისტემებზე LangGraph-ითა და LangChain-ით, RAG-ზე Qdrant-ით და ნებისმიერ მოდელზე, რომელიც საჭიროა — ლოკალურზე თუ API-ზე დაფუძნებულზე: NVIDIA NeMo, Hugging Face, Mistral, Ollama, OpenAI / Azure. სისტემას კი თავიდან ბოლომდე თვითონ ვაკეთებ — async FastAPI მიკროსერვისები Azure/AWS-ის კონტეინერებში და typed React / React Native კლიენტები. ხუთი პროდაქშენ სისტემა მაქვს გაშვებული: მედია ანალიტიკა, real-time მეტყველება, აგენტური AI და გეოსივრცული მონაცემები.",
     },
     location: { en: "Kutaisi, Georgia", ka: "ქუთაისი, საქართველო" },
     email: "vvako177@gmail.com",
@@ -120,7 +120,7 @@ export const localProjects: Project[] = [
     kind: { en: "Backend · Scraping · Analytics", ka: "ბექენდ · სქრეიპინგი · ანალიტიკა" },
     stack: ["Python", "FastAPI", "Celery", "PostgreSQL", "OpenAI / Azure", "Docker"],
     bullets: [
-      { en: "Worked on a 5-service system (FastAPI, Flask, Celery, Celery Beat, Nginx) on Docker Compose, including the per-service PostgreSQL connection-pool tuning that eliminated pool starvation under concurrent load.", ka: "ვიმუშავე 5-სერვისიან სისტემაზე (FastAPI, Flask, Celery, Celery Beat, Nginx) Docker Compose-ზე; მათ შორის სერვისებზე მორგებულ PostgreSQL connection-pool-ზე, რამაც კონკურენტული დატვირთვისას connection-pool-ის ამოწურვა აღმოფხვრა." },
+      { en: "Worked on a 5-service system (FastAPI, Flask, Celery, Celery Beat, Nginx) on Docker Compose, including the per-service PostgreSQL connection-pool tuning that eliminated pool starvation under concurrent load.", ka: "ვიმუშავე 5-სერვისიან სისტემაზე (FastAPI, Flask, Celery, Celery Beat, Nginx) Docker Compose-ზე; მათ შორის თითოეული სერვისისთვის მორგებულ PostgreSQL connection-pool-ზე, რამაც კონკურენტული დატვირთვისას მისი ამოწურვა აღმოფხვრა." },
       { en: "Engineered 40+ Selenium scrapers with a cookie-vs-Apify social-media backend switch, feeding an LLM relevance & sentiment pipeline on OpenAI/Azure; automated alerting and push-to-main CI/CD to Azure.", ka: "დავწერე 40+ Selenium სქრეიპერი cookie-vs-Apify სოც-მედია გადამრთველით, რომელიც OpenAI/Azure-ის LLM რელევანტურობისა და სენტიმენტის pipeline-ს აწვდის მონაცემებს; ავტომატიზებული შეტყობინებები და push-to-main CI/CD Azure-ზე." },
     ],
   },
@@ -141,7 +141,7 @@ export const localProjects: Project[] = [
     stack: ["Python", "gRPC", "Celery", "pyannote", "asyncpg", "Next.js"],
     bullets: [
       { en: "Engineered a real-time pipeline capturing live broadcast streams into speech-to-text and pyannote speaker diarization, exposed over gRPC on async SQLAlchemy / asyncpg.", ka: "დავწერე რეალურ დროში მომუშავე pipeline, რომელიც live მაუწყებლობის ნაკადს იჭერს, ტექსტად გარდაქმნის და pyannote-ით დიარიზაციას უკეთებს — gRPC-ზე, async SQLAlchemy / asyncpg-ით." },
-      { en: "Scaled throughput with Celery + Redis across three dedicated queues; built a Next.js / React dashboard with PDF exports.", ka: "გავზარდე წარმადობა Celery + Redis-ით სამ ცალკე queue-ზე; დავამატე Next.js / React dashboard PDF ექსპორტით." },
+      { en: "Scaled throughput with Celery + Redis across three dedicated queues; built a Next.js / React dashboard with PDF exports.", ka: "წარმადობა გავზარდე Celery + Redis-ით, სამ ცალკე რიგზე გადანაწილებით; დავამატე Next.js / React dashboard PDF ექსპორტით." },
     ],
   },
   {
@@ -160,7 +160,7 @@ export const localProjects: Project[] = [
     kind: { en: "Serverless Ingestion", ka: "Serverless მონაცემთა მიღება" },
     stack: ["TypeScript", "AWS Lambda", "Serverless", "Sequelize"],
     bullets: [
-      { en: "Built the AWS Lambda (Serverless, TypeScript) real-time sync that authenticates to a municipal traffic-camera API and filters detections against a whitelist before persistence — the platform's data-quality gate.", ka: "დავწერე AWS Lambda (Serverless, TypeScript) real-time sync, რომელიც მუნიციპალურ traffic-camera API-ში ავთენტიფიცირდება და შენახვამდე დეტექციებს whitelist-ით ფილტრავს — ეს არის პლატფორმის data-quality კარიბჭე." },
+      { en: "Built the AWS Lambda (Serverless, TypeScript) real-time sync that authenticates to a municipal traffic-camera API and filters detections against a whitelist before persistence — the platform's data-quality gate.", ka: "დავწერე AWS Lambda (Serverless, TypeScript) real-time sync, რომელიც მუნიციპალურ traffic-camera API-ში ავთენტიფიცირდება და შენახვამდე დეტექციებს whitelist-ით ფილტრავს — მონაცემების ხარისხი სწორედ აქ წყდება." },
       { en: "Optimized writes with Sequelize bulk-upserts (ignore-duplicates) and async logging of unrecognized sources; the data feeds a deck.gl / Mapbox geospatial dashboard.", ka: "დავაოპტიმიზირე ჩაწერა Sequelize bulk-upsert-ებით (ignore-duplicates) და უცნობი წყაროების async ლოგირებით; მონაცემები შემდეგ deck.gl / Mapbox-ის გეოსივრცულ dashboard-ში მიდის." },
     ],
   },

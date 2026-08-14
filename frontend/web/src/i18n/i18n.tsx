@@ -20,10 +20,10 @@ const ui: Record<string, L> = {
   "nav.contact": { en: "Contact", ka: "კონტაქტი" },
 
   "hero.available": {
-    en: "Open to AI · Backend · Frontend roles",
-    ka: "ღია ვარ AI, ბექენდ და ფრონტენდ როლებისთვის",
+    en: "Open to roles — AI engineering first, backend and frontend too",
+    ka: "პირველ რიგში მაინტერესებს AI ინჟინერია, ასევე ბექენდი და ფრონტენდი",
   },
-  "hero.viewWork": { en: "View work", ka: "პროექტები" },
+  "hero.viewWork": { en: "View work", ka: "ნახე პროექტები" },
   "hero.play": { en: "Play Snake", ka: "ითამაშე Snake" },
   "hero.cv": { en: "Download CV", ka: "ჩამოტვირთე CV" },
   "hero.scroll": { en: "scroll", ka: "ქვემოთ" },
@@ -40,12 +40,12 @@ const ui: Record<string, L> = {
   },
   "about.aiBody": {
     en: "This is the area I've spent the most time in and have the deepest experience with. I work on multi-agent systems with LangGraph and LangChain — routing, planning, memory and tool-calling graphs — grounded in Qdrant vector retrieval and traced end to end with LangSmith. The model itself is never the constraint: local or API-based, I get it running and adapted to whatever the system needs — Ollama, Mistral, Hugging Face transformers, NVIDIA NeMo (TitaNet, FastConformer), faster-whisper, pyannote, OpenAI / Azure. From prompt design and RAG pipelines to GPU/CUDA containers, I take LLM features from prototype to something that survives real traffic.",
-    ka: "ეს არის მიმართულება, რომელშიც ყველაზე მეტი გამოცდილება მაქვს და ყველაზე მეტი დრო მაქვს დახარჯული. ვმუშაობ მრავალაგენტიან სისტემებზე LangGraph-ითა და LangChain-ით — მარშრუტიზაცია, დაგეგმვა, მეხსიერება და tool-calling გრაფები; კონტექსტს Qdrant-ის ვექტორული ძიება აწვდის, სრულ ტრეისინგს კი LangSmith. მოდელი არასდროსაა შეზღუდვა — ლოკალური იქნება თუ API-ზე დაფუძნებული, ავამუშავებ და მოვარგებ იმ სისტემას, რომელშიც უნდა ჩაჯდეს: Ollama, Mistral, Hugging Face-ის transformer-ები, NVIDIA NeMo (TitaNet, FastConformer), faster-whisper, pyannote, OpenAI / Azure. პრომპტის დიზაინიდან და RAG პაიპლაინებიდან GPU/CUDA კონტეინერებამდე — LLM ფიჩერს პროტოტიპიდან რეალურ დატვირთვამდე მიმყავს.",
+    ka: "სწორედ ამ მიმართულებას ვუთმობ ყველაზე მეტ დროს და აქ მაქვს ყველაზე დიდი გამოცდილებაც. ვმუშაობ მრავალაგენტიან სისტემებზე LangGraph-ითა და LangChain-ით — მარშრუტიზაცია, დაგეგმვა, მეხსიერება და tool-calling გრაფები; კონტექსტს Qdrant-ის ვექტორული ძიება აწვდის, სრულ ტრეისინგს კი LangSmith. მოდელს მნიშვნელობა არ აქვს — ლოკალური იქნება თუ API-ზე დაფუძნებული, ავამუშავებ და მოვარგებ იმ სისტემას, რომელშიც უნდა ჩაჯდეს: Ollama, Mistral, Hugging Face-ის transformer-ები, NVIDIA NeMo (TitaNet, FastConformer), faster-whisper, pyannote, OpenAI / Azure. პრომპტის დიზაინიდან და RAG პაიპლაინებიდან GPU/CUDA კონტეინერებამდე — LLM ფიჩერს პროტოტიპიდან რეალურ დატვირთვამდე მიმყავს.",
   },
   "about.beTitle": { en: "Backend", ka: "ბექენდი" },
   "about.beBody": {
     en: "Async FastAPI microservices, task orchestration with Celery and APScheduler, gRPC streaming services, and PostgreSQL through async SQLAlchemy — containerized with Docker and shipped via GitHub Actions CI/CD to Azure and AWS. Most of my day-to-day code lives here: the services, queues and pipelines that keep the AI features fed and running under real load.",
-    ka: "async FastAPI მიკროსერვისები, ამოცანების ორკესტრირება Celery-თი და APScheduler-ით, gRPC streaming სერვისები და PostgreSQL async SQLAlchemy-ით — Docker-ის კონტეინერებში, GitHub Actions-ის CI/CD-ით Azure-სა და AWS-ზე. ყოველდღიური კოდის დიდი ნაწილი სწორედ აქაა: სერვისები, რიგები და პაიპლაინები, რომლებიც AI ფიჩერებს რეალურ დატვირთვაზე ამუშავებს.",
+    ka: "async FastAPI მიკროსერვისები, ამოცანების ორკესტრირება Celery-თი და APScheduler-ით, gRPC streaming სერვისები და PostgreSQL async SQLAlchemy-ით — Docker-ის კონტეინერებში, GitHub Actions-ის CI/CD-ით Azure-სა და AWS-ზე. ყოველდღიური კოდის დიდი ნაწილი სწორედ აქაა: სერვისები, რიგები და პაიპლაინები, რომლებზეც AI ფიჩერები დგას და რეალურ დატვირთვას უძლებს.",
   },
   "about.feTitle": { en: "Frontend — I ship that too", ka: "ფრონტენდი" },
   "about.feBody": {
@@ -57,14 +57,14 @@ const ui: Record<string, L> = {
   "skills.title": { en: "Skills & tooling", ka: "ტექნოლოგიები და ინსტრუმენტები" },
   "skills.lead": {
     en: "The toolbox behind the systems — AI first, then everything needed to ship it.",
-    ka: "ინსტრუმენტები, რომლებზეც ყოველდღიურად ვმუშაობ — ჯერ AI, მერე ყველაფერი, რაც სისტემის პროდაქშენში გასაშვებადაა საჭირო.",
+    ka: "ინსტრუმენტები, რომლებითაც ყოველდღიურად ვმუშაობ — ჯერ AI, მერე ყველაფერი, რაც სისტემის პროდაქშენში გასაშვებადაა საჭირო.",
   },
 
   "work.eyebrow": { en: "work", ka: "პროექტები" },
   "work.title": { en: "Selected work", ka: "რჩეული პროექტები" },
   "work.lead": {
-    en: "Five production systems, shipped end to end — from architecture to deployment.",
-    ka: "ხუთი პროდაქშენ სისტემა — არქიტექტურიდან დეპლოიმდე.",
+    en: "Five production systems, shipped end to end — from first commit to real users.",
+    ka: "ხუთი პროდაქშენ სისტემა — პირველი კომიტიდან რეალურ მომხმარებლებამდე.",
   },
   "work.at": { en: "at", ka: "—" },
 
@@ -72,7 +72,7 @@ const ui: Record<string, L> = {
   "arcade.title": { en: "Take a break — play Snake", ka: "დაისვენე — ითამაშე Snake" },
   "arcade.lead": {
     en: "A tiny game, wired to the same FastAPI backend for a real high-score board.",
-    ka: "პატარა თამაში, რომელიც იმავე FastAPI ბექენდს იყენებს რეალური რეიტინგისთვის.",
+    ka: "პატარა თამაში — რეკორდების ცხრილი იმავე FastAPI ბექენდზეა მიბმული.",
   },
   "arcade.start": { en: "Start", ka: "დაწყება" },
   "arcade.pause": { en: "Pause", ka: "პაუზა" },
@@ -87,10 +87,10 @@ const ui: Record<string, L> = {
   "arcade.submit": { en: "Submit", ka: "გაგზავნა" },
   "arcade.saved": { en: "Saved ✓", ka: "შენახულია ✓" },
   "arcade.board": { en: "Leaderboard", ka: "რეიტინგი" },
-  "arcade.empty": { en: "No scores yet — be the first.", ka: "ჯერ არავინ — იყავი პირველი." },
+  "arcade.empty": { en: "No scores yet — be the first.", ka: "ჯერ არავის უთამაშია — იყავი პირველი." },
   "arcade.controls": {
     en: "Arrow keys / WASD · or the pad below on touch",
-    ka: "ისრები / WASD · ან ქვემოთა ღილაკები სენსორზე",
+    ka: "ისრები / WASD · ან ქვედა ღილაკები სენსორულ ეკრანზე",
   },
   "arcade.sourceApi": { en: "live · saved to API", ka: "live · შენახულია API-ზე" },
   "arcade.sourceLocal": { en: "offline · saved locally", ka: "offline · შენახულია ლოკალურად" },
@@ -98,8 +98,8 @@ const ui: Record<string, L> = {
   "contact.eyebrow": { en: "contact", ka: "კონტაქტი" },
   "contact.title": { en: "Let's build something", ka: "მოდი, ერთად ვიმუშაოთ" },
   "contact.lead": {
-    en: "Open to AI, backend and frontend engineering roles — remote or Georgia-based.",
-    ka: "ღია ვარ AI, ბექენდ და ფრონტენდ როლებისთვის — დისტანციურად ან საქართველოში.",
+    en: "Open to AI, backend and frontend roles, with AI engineering as the priority — remote or Georgia-based.",
+    ka: "განვიხილავ AI, ბექენდისა და ფრონტენდის პოზიციებს, პრიორიტეტი კი AI ინჟინერიაა — დისტანციურად ან საქართველოში.",
   },
   "contact.email": { en: "Email", ka: "ელფოსტა" },
   "contact.phone": { en: "Phone", ka: "ტელეფონი" },
@@ -109,7 +109,7 @@ const ui: Record<string, L> = {
      literally true, while `footer.stack` is the AI toolchain used in the shipped work. */
   "footer.built": {
     en: "Built with React · TypeScript · FastAPI — deployed on Cloudflare & Render",
-    ka: "დაწერილია React-ით, TypeScript-ითა და FastAPI-ით — Cloudflare-სა და Render-ზე",
+    ka: "დაწერილია React-ით, TypeScript-ითა და FastAPI-ით — გაშვებულია Cloudflare-სა და Render-ზე",
   },
   "footer.stack": {
     en: "Day to day: LangGraph · LangChain · Hugging Face · NVIDIA NeMo · Mistral · Ollama · Qdrant",

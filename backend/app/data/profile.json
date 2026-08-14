@@ -4,11 +4,11 @@
     "role": { "en": "AI Engineer · Backend & Full-Stack", "ka": "AI ინჟინერი · ბექენდი და ფულ-სტეკი" },
     "tagline": {
       "en": "I specialize in AI engineering — multi-agent LLM systems, RAG, and integrating any model, local or API-based, into whatever system needs it — on production-grade, event-driven Python backends, with the React / React Native frontends to match.",
-      "ka": "სპეციალიზირებული ვარ AI ინჟინერიაში — მრავალაგენტიანი LLM სისტემები, RAG და ნებისმიერი მოდელის, ლოკალურის თუ API-ზე დაფუძნებულის, ინტეგრაცია ნებისმიერ სისტემაში — პროდაქშენ დონის, event-driven Python ბექენდებზე და შესაბამისი React / React Native ფრონტენდით."
+      "ka": "სპეციალიზირებული ვარ AI ინჟინერიაში — მრავალაგენტიანი LLM სისტემები, RAG და ნებისმიერი მოდელის, ლოკალურის თუ API-ზე დაფუძნებულის, ინტეგრაცია ნებისმიერ სისტემაში — პროდაქშენ დონის, event-driven Python ბექენდზე და შესაბამისი React / React Native ფრონტენდით."
     },
     "summary": {
       "en": "AI engineer first: I work on multi-agent LLM systems with LangGraph and LangChain, RAG over Qdrant, and whatever model the job needs — local or API-based — across NVIDIA NeMo, Hugging Face, Mistral, Ollama and OpenAI / Azure. Then I ship them end to end — async FastAPI microservices containerized on Azure/AWS, fronted by typed React and React Native clients I build myself. Five production systems delivered across media analytics, real-time speech, agentic AI, and geospatial data.",
-      "ka": "პირველ რიგში AI ინჟინერი ვარ: ვმუშაობ მრავალაგენტიან LLM სისტემებზე LangGraph-ითა და LangChain-ით, RAG-ზე Qdrant-ით და ნებისმიერ მოდელზე, რომელიც საჭიროა — ლოკალურზე თუ API-ზე დაფუძნებულზე: NVIDIA NeMo, Hugging Face, Mistral, Ollama, OpenAI / Azure. სისტემას კი თავიდან ბოლომდე თვითონ ვაკეთებ — async FastAPI მიკროსერვისები Azure/AWS-ის კონტეინერებში და typed React / React Native კლიენტები, რომლებსაც თვითონვე ვწერ. ხუთი პროდაქშენ სისტემა: მედია ანალიტიკა, real-time მეტყველება, აგენტური AI და გეოსივრცული მონაცემები."
+      "ka": "პირველ რიგში AI ინჟინერი ვარ: ვმუშაობ მრავალაგენტიან LLM სისტემებზე LangGraph-ითა და LangChain-ით, RAG-ზე Qdrant-ით და ნებისმიერ მოდელზე, რომელიც საჭიროა — ლოკალურზე თუ API-ზე დაფუძნებულზე: NVIDIA NeMo, Hugging Face, Mistral, Ollama, OpenAI / Azure. სისტემას კი თავიდან ბოლომდე თვითონ ვაკეთებ — async FastAPI მიკროსერვისები Azure/AWS-ის კონტეინერებში და typed React / React Native კლიენტები. ხუთი პროდაქშენ სისტემა მაქვს გაშვებული: მედია ანალიტიკა, real-time მეტყველება, აგენტური AI და გეოსივრცული მონაცემები."
     },
     "location": { "en": "Kutaisi, Georgia", "ka": "ქუთაისი, საქართველო" },
     "email": "vvako177@gmail.com",
